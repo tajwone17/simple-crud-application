@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (response.ok) {
       const student = await response.json();
-
+      console.log(student);
       // Populate the data into the HTML
       document.querySelector(".name").textContent = student.name;
       document.querySelector(".id").textContent = `ID: ${student.id}`;
