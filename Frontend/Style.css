@@ -18,7 +18,7 @@ body {
   border: 2px solid black;
 }
 button {
-  padding: 5px 8px;
+  padding: 7px 8px;
   background-color: royalblue;
   border-radius: 3px;
   color: white;
@@ -55,23 +55,46 @@ input {
   width: 80%;
   height: 80%;
   background: white;
-  /* display: flex; */
+  border-radius: 10px;
   /* align-items: center;
   justify-content: center; */
+}
+table {
+  width: 100%;
 }
 th {
   border: 2px solid black;
   width: 80%;
   height: 7%;
-  margin-top: 10px;
+  margin-top: 15px;
+
+  /* border-top: none; */
 }
 
 td {
   border: 2px solid black;
 
   height: 3%;
+  border-top: none;
+  /* border-right: none; */
 }
 h1 {
   color: black;
   font-size: 1.5rem;
+}
+.listBtn {
+  padding: 5px 7px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  width: 60%;
+  height: 50%;
 }
