@@ -12,30 +12,19 @@
         <h1>Student List</h1>
       </div>
       <div class="list-container">
-        <table>
-          <tr>
-            <th>Student Registration Number</th>
-            <th class="action"><button class="viewBtn">Actions</button></th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>
-              <a href="view.html"><button class="listBtn">View</button></a>
-              <a href="update.html"><button class="listBtn">Edit</button></a>
-              <a href=""><button class="listBtn">Delete</button></a>
-            </td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>
-              <a href="view.html"><button class="listBtn">View</button></a>
-              <a href="update.html"><button class="listBtn">Edit</button></a>
-              <a href=""><button class="listBtn">Delete</button></a>
-            </td>
-          </tr>
+        <table id="student-table">
+          <thead>
+            <tr>
+              <th>Student Registration Number</th>
+              <th class="action"><button>Actions</button></th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Students will be dynamically populated here -->
+          </tbody>
         </table>
       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="list.js"></script>
   </body>
 </html>
